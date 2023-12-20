@@ -2,7 +2,8 @@ import "../App.css";
 import { useState } from "react";
 
 function Home() {
-  const API_KEY = "o88z01rvR2uWzqwNCnWWuYTunl5eoGbA";
+  //   console.log(import.meta.env.VITE_APP_API_KEY);
+  const API_KEY = import.meta.env.VITE_APP_API_KEY;
   const [data, setData] = useState(null);
   const [isData, setIsData] = useState(false);
   const [formData, setFromData] = useState({
