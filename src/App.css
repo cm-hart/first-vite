@@ -1,0 +1,43 @@
+.page-wrapper {
+  width: 70%;
+  margin: 3em auto;
+  text-align: center;
+}
+
+.formInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form select {
+  margin: 3em;
+  width: 40%;
+}
+
+form {
+  padding: 2em;
+  border: 2px solid black;
+  width: 40%;
+  margin: 3em auto;
+}
+
+.card {
+  padding: 2em;
+  margin: 1em;
+  border: 2px solid black;
+  height: 300px;
+  width: 200px;
+}
+
+.card img {
+  height: 180px;
+  width: 130px;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
