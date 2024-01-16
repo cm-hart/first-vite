@@ -6,7 +6,7 @@ import ErrorBoundary from "./ErrorBoundary";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <ErrorBoundary fallback="there is an error">
+    <ErrorBoundary fallback="Unfortunately that is an invalid combination. Please refresh the page and try again. This is an error message.">
       <App />
     </ErrorBoundary>
   </React.StrictMode>
